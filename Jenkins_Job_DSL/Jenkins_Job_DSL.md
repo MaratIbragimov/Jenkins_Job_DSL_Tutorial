@@ -31,7 +31,7 @@ A Jenkins job DSL a plugin that allows us to define/configure jenkins jobs progr
 
 * Go to **Build** section and click on **Add a build step** and select **Process job DSLs** 
 
-* In **DSL Scripts** enter the relative path of the **groovy** file **Jenkins_Job_DSL/nodejs.groovy**
+* In **DSL Scripts** enter the relative path of the **groovy** file **Jenkins_Job_DSL/nodejsdocker.groovy**
 
 * Click **Save**
 
