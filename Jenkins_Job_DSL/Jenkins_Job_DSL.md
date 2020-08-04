@@ -27,6 +27,6 @@ A Jenkins job DSL a plugin that allows us to define/configure jenkins jobs progr
 
 * In jobs configuration go to **Source management** and select **Git**
 
-* Enter the url of the git repository that contains your Jenkins jobs DSL e.g https://github.com/marat643/Jenkins_Tutorials.git
+* Enter the url of the git repository that contains your Jenkins jobs DSL e.g https://github.com/marat643/Jenkins_Job_DSL_Tutorial.git
 
 * Go to **Build** section and click on **Add a build step** and select **Process job DSLs** 
