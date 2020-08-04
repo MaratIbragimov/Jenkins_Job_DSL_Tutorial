@@ -37,8 +37,8 @@ A Jenkins job DSL a plugin that allows us to define/configure jenkins jobs progr
  
     scm { // source controll management
         git('git://github.com/wardviaene/docker-demo.git') {  node -> // is hudson.plugins.git.GitSCM
-            node / gitConfigName('DSL User') // definition of git configuration
-            node / gitConfigEmail('jenkins-dsl@newtech.academy') // git email
+            node / gitConfigName('DSL User') 
+            node / gitConfigEmail('jenkins-dsl@newtech.academy')
         }
     }
     triggers {
