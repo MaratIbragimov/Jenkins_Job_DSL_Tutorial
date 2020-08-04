@@ -34,7 +34,7 @@ In this section we will dockerize and push the application to **docker-hub**.
 
 * Go to **Build** section and click on **Add a build step** and select **Process job DSLs** 
 
-* In **DSL Scripts** enter the relative path of the **groovy** file **Jenkins_Job_DSL/nodejsdocker.groovy**, this file contains the commands:
+* In **DSL Scripts** enter the relative path of the **groovy** file **Jenkins_Job_DSL/nodejsdocker.groovy** . This file contains the commands:
 ```groovy
 
 job('NodeJS Docker example') {
@@ -64,6 +64,9 @@ job('NodeJS Docker example') {
     }
 }
 ```
+
+* Click **Save**
+
 
 # Setup Docker hub credentials:
 
