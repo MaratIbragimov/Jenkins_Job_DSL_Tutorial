@@ -50,7 +50,7 @@ A Jenkins job DSL a plugin that allows us to define/configure jenkins jobs progr
 
 * Go back to **Job DSL example** project and click on **Build now**
 
-* In your console output you should see:
+* At the bottom of your jobs output you should see the message:
 ```
 Processing DSL script Jenkins_Job_DSL/nodejs.groovy
 Added items:
