@@ -1,17 +1,9 @@
 
-
-**Note**: in the previous step we built the application and started it manually using `npm start`.
+## Groovy job DSL script with docker publish:
+In the previous step we built the application and started it manually using `npm start`.
 In this section we will dockerize and push the application to **docker-hub**.
 
-# Groovy DSL Script with docker publish:
 
-* Open Jenkins 
-
-* Select **Job DSL example**
-
-
-
-A Jenkins job DSL a plugin that allows us to define/configure jenkins jobs programmatically.
 
 ## Jobs DSL plugin installation:
 
@@ -32,7 +24,7 @@ A Jenkins job DSL a plugin that allows us to define/configure jenkins jobs progr
 
 * Select **Frestyle project**
 
-* Enter projects name e.g **Job DSL example**
+* Enter projects name e.g **Job DSL with Docker example**
 
 * Click ok
 
@@ -51,7 +43,7 @@ A Jenkins job DSL a plugin that allows us to define/configure jenkins jobs progr
 
 * Open Jenkins 
 
-* Select **Job DSL example**
+* Select **Job DSL with Docker example**
 
 * Click on **Build Now**
 
@@ -59,4 +51,4 @@ A Jenkins job DSL a plugin that allows us to define/configure jenkins jobs progr
 
 * To approve the script for use go to **Jenkins -> Manage Jenkins -> In-process script approval** and click on **Approve**.
 
-* Go back to **Job DSL example** project and click on **Build now**
+* Go back to **Job DSL with Docker example** project and click on **Build now**
