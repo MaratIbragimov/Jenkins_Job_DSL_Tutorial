@@ -59,3 +59,17 @@ Finished: SUCCESS
 ```
 * Click on **Jenkins** and you should see a new project named **NodeJS example**
 
+
+# Make sure that job is completed:
+
+* Connect to Jenkins image from your hosting machine 
+```bash
+ $ docker exec -ti jenkins bas
+```
+* Go to `/var/jenkins_home/workspace` and make sure you have the directory `NodeJS example` inside.
+
+
+
+
+
+
