@@ -31,7 +31,29 @@ A Jenkins job DSL a plugin that allows us to define/configure jenkins jobs progr
 
 * Go to **Build** section and click on **Add a build step** and select **Process job DSLs** 
 
-* In **DSL Scripts** enter the relative path of the **groovy** file **Jenkins_Job_DSL/nodejsdocker.groovy**
+* In **DSL Scripts** enter the relative path of the **groovy** file **Jenkins_Job_DSL/nodejsdocker.groovy** this file contains the commands:
+```groovy
+ job('NodeJS example') {  // definition of a job
+ 
+    scm { // source controll management
+        git('git://github.com/wardviaene/docker-demo.git') {  node -> // is hudson.plugins.git.GitSCM
+            node / gitConfigName('DSL User') // definition of git configuration
+            node / gitConfigEmail('jenkins-dsl@newtech.academy') // git email
+        }
+    }
+    triggers {
+        scm('H/5 * * * *') // triggers pull scm every five minutes
+    }
+    wrappers {
+        nodejs('nodejs') // this is the name of the NodeJS installation in 
+                         // Manage Jenkins -> Configure Tools -> NodeJS Installations -> Name
+    }
+    steps {
+        shell("npm install") // builds node.js project
+    }
+}
+
+```
 
 * Click **Save**
 
