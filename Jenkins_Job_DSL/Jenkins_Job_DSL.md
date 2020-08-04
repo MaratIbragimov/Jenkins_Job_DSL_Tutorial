@@ -68,9 +68,7 @@ Finished: SUCCESS
 ```
 * Go to `/var/jenkins_home/workspace` and make sure you have the directory `NodeJS example` inside.
 
-
-# Groovy DSL Script with docker publish:
-
+* Change to `NodeJS example` directory and execute `npm start`
 
 
 
