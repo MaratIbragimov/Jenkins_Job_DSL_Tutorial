@@ -1,6 +1,6 @@
 # Jenkins Jobs DSL
 
-A Jenkins job DSL a plugin that allows us to define/configure jenkins jobs programmatically.
+A Jenkins job DSL is a plugin that allows us to define/configure jenkins jobs programmatically.
 
 ## Jobs DSL plugin installation:
 
